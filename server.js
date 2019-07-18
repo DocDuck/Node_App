@@ -1,7 +1,7 @@
-const userjs = require('./user');
+const User = require('./user');
 
 function runUserGreeting() {
-    const vasya = new userjs.User("Вася");
+    const vasya = new User("Вася");
 
     vasya.hello(vasya);
 }
