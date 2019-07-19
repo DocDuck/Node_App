@@ -2,7 +2,7 @@
 let phrases;
 
 exports.connect = function() {
-    phrases = require('./ru');
+    phrases = require('./dic');
 };
 
 exports.getPhrase = (name) => {

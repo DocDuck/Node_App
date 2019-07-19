@@ -6,7 +6,6 @@ db.connect(); // инициализация модуля с json необход�
 
 function runUserGreeting() {
     const vasya = new User("Вася");
-
     vasya.hello(vasya);
 }
 
